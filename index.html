@@ -1,0 +1,55 @@
+<!-- Name: Muhammad Abdullah | Roll No: 26i-3252 | Section: SE-C -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Menu - YVL Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YVL Cafe</h1>
+
+    <img src="images/banner.jpg" alt="Donut and iced coffee at YVL Cafe" class="banner">
+
+    <p>Fresh parathas, warm donuts and hot chai or coffee, whatever you like, we got it all!!</p>
+
+    <h2>Menu</h2>
+    <table style="width:100%">
+        <tr>
+            <th>Item</th>
+            <th>Category</th>
+            <th>Price (Rs.)</th>
+        </tr>
+        <tr>
+            <td>Paratha Roll</td>
+            <td>Breakfast</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Donuts</td>
+            <td>Breakfast</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Chai</td>
+            <td>Drinks</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <button onclick="placeOrder()">Order</button>
+
+    <script>
+        function placeOrder() {
+            window.alert("Order confirmed! Your food will be ready soon.");
+        }
+    </script>
+
+</body>
+</html>

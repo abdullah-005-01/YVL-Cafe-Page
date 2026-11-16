@@ -1,0 +1,37 @@
+/*Muhammad Abdullah 26i-3252 SE-C*/
+body {
+    background-color: #FFF3E0;
+    color: #4A3123;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 700px;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #6F4E37;
+    font-size: 40px;
+}
+
+h2 {
+    color: #6F4E37;
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #E67E22;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 40px;
+    margin-top: 25px;
+}
