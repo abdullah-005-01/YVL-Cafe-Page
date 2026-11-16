@@ -1,0 +1,80 @@
+
+<!-- Name: Muhammad Abdullah | Roll No: 26i-3252 | Section: SE-C -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - YVL Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>YVL Cafe</h1>
+
+    <h2>Contact Us</h2>
+
+    <p>Have a question or want to get in touch? Send us a message!</p>
+
+    <!-- Contact Form -->
+    <h2>Send Us a Message</h2>
+
+    <form onsubmit="sendMessage(event)">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+    <!-- Cafe Information -->
+    <h2>Our Information</h2>
+
+    <div class="contact-info">
+
+        <p><strong>Address:</strong><br>
+        F-7 Markaz, Islamabad, Pakistan</p>
+
+        <p><strong>Phone:</strong><br>
+        +92 300 1234567</p>
+
+        <p><strong>Opening Hours:</strong><br>
+        Monday - Sunday<br>
+        9:00 AM - 11:00 PM</p>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function sendMessage(event) {
+            event.preventDefault();
+
+            window.alert("Your message has been sent successfully! Thank you for contacting YVL Cafe.");
+
+            document.querySelector("form").reset();
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 YVL Cafe | Muhammad Abdullah 26i-3252
+    </footer>
+
+</body>
+</html>
