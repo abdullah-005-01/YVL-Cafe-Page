@@ -1,4 +1,6 @@
-/*Muhammad Abdullah 26i-3252 SE-C*/
+
+/* Muhammad Abdullah 26i-3252 SE-C */
+
 body {
     background-color: #FFF3E0;
     color: #4A3123;
@@ -10,6 +12,26 @@ body {
     margin: 20px auto;
 }
 
+/* Navbar */
+nav {
+    background-color: #6F4E37;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #E67E22;
+}
+
+/* Headings */
 h1 {
     color: #6F4E37;
     font-size: 40px;
@@ -20,11 +42,23 @@ h2 {
     font-size: 25px;
 }
 
+/* Banner */
 .banner {
     width: 100%;
     border-radius: 10px;
 }
 
+/* Table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Button */
 button {
     background-color: #E67E22;
     color: white;
@@ -34,4 +68,15 @@ button {
     border-radius: 20px;
     padding: 12px 40px;
     margin-top: 25px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #6F4E37;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 35px;
+    font-size: 13px;
 }
