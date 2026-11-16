@@ -1,0 +1,127 @@
+
+<!-- Name: Muhammad Abdullah | Roll No: 26i-3252 | Section: SE-C -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - YVL Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>YVL Cafe</h1>
+
+    <h2>Our Menu</h2>
+    <p>Fresh food, delicious drinks and sweet treats. Something for everyone!</p>
+
+    <!-- Breakfast Section -->
+    <h2>Breakfast</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Item</th>
+            <th>Price (Rs.)</th>
+        </tr>
+        <tr>
+            <td>Aloo Paratha</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Chicken Paratha</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Plain Omelette</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Cheese Omelette</td>
+            <td>220</td>
+        </tr>
+    </table>
+
+    <button onclick="placeOrder('Breakfast')">Order</button>
+
+
+    <!-- Drinks Section -->
+    <h2>Drinks</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Item</th>
+            <th>Price (Rs.)</th>
+        </tr>
+        <tr>
+            <td>Chai</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Cold Coffee</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Hot Coffee</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>Fresh Lemonade</td>
+            <td>150</td>
+        </tr>
+    </table>
+
+    <button onclick="placeOrder('Drinks')">Order</button>
+
+
+    <!-- Desserts Section -->
+    <h2>Desserts</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Item</th>
+            <th>Price (Rs.)</th>
+        </tr>
+        <tr>
+            <td>Chocolate Donut</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Strawberry Donut</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>Chocolate Brownie</td>
+            <td>220</td>
+        </tr>
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>250</td>
+        </tr>
+    </table>
+
+    <button onclick="placeOrder('Desserts')">Order</button>
+
+
+    <!-- JavaScript -->
+    <script>
+        function placeOrder(category) {
+            window.alert(category + " order confirmed! Thank you for choosing YVL Cafe.");
+        }
+    </script>
+
+
+    <!-- Footer -->
+    <footer>
+        © 2026 YVL Cafe | Muhammad Abdullah 26i-3252
+    </footer>
+
+</body>
+</html>
